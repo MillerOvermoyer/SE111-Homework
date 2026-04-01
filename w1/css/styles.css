@@ -1,0 +1,31 @@
+body {
+    background-color: #D90452;
+    color: hsl(50, 81%, 47%);
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+}
+.outer {
+    border: 5px #DC01C5 solid;
+    border-radius: 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+}
+.inner {
+    font-size: 18pt;
+}
+@keyframes gameName {
+    0% {color: red;}
+    25% {color: yellow;}
+    50% {color: blue;}
+    75% {color: green;}
+    100% {color: orange;}
+}
+.gameName {
+    animation-name: gameName;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
