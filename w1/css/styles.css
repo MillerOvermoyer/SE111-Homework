@@ -19,7 +19,7 @@ h2 {
 }
 @keyframes gameName {
     0% {color: red; }
-    25% {color: yellow; transform: rotate(90deg);}
+    25% {color: yellow;}
     50% {color: blue; transform: rotate(180deg);}
     75% {color: green; transform: rotate(270deg);}
     100% {color: orange; transform: rotate(360deg);}

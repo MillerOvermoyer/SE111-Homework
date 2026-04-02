@@ -1,0 +1,10 @@
+p {
+    color: turquoise;
+    font-size: 35px;
+}
+
+h1 {
+    background-color: bisque;
+    font-size: 55px;
+    border: 20px dotted yellowgreen;
+}
