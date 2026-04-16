@@ -1,0 +1,52 @@
+/* Import Fonts */
+
+
+@font-face {
+    font-family: "Lokeya";
+    src:url(../fonts/lokeya/Lokeya.ttf);
+}
+
+
+/* Body stylings */
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Header stylings */
+#header {
+    font-family: "Lokeya";
+    margin: auto;
+    text-align: center;
+
+}
+
+/* Nav Bar stylings */
+#navBar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+    padding: 10px 5px 10px 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItem {
+    font-size: 18px;
+}
+
+#homeIcon {
+    width: 40px;
+
+}
+
+/* Main Content Stylings */
+#content {
+
+}
+
+/* Footer stylings */
+#footer {
+    
+}

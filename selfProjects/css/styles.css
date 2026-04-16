@@ -10,3 +10,7 @@
     font-family: "typewriter";
     src: url(/selfProjects/fonts/jmh_typewriter/JMH\ Typewriter.ttf);
 }
+
+#header {
+    font-family: "Hit me, punk!";
+}
