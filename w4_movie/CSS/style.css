@@ -1,28 +1,42 @@
 /* Import Fonts */
+@font-face {
+    font-family: "Sunday Best";
+    src: url(../fonts/sunday_best/Sunday\ Best\ ttf.ttf);
+}
 
+@font-face {
+    font-family: "JMH Typewriter";
+    src: url(../fonts/jmh_typewriter/JMH\ Typewriter.ttf);
+}
+
+@font-face {
+    font-family: "Chinese Rocks";
+    src: url(../fonts/chinese_rocks/chinese\ rocks\ rg.otf);
+}
 
 @font-face {
     font-family: "Lokeya";
-    src:url(../fonts/lokeya/Lokeya.ttf);
+    src: url(../fonts/lokeya/Lokeya.ttf);
 }
 
 
 /* Body stylings */
 body {
+    font-family: "Lokeya";
     background-color: black;
     color: white;
 }
 
 /* Header stylings */
 #header {
-    font-family: "Lokeya";
     margin: auto;
     text-align: center;
-
+    font-family: "JMH Typewriter"
 }
 
 /* Nav Bar stylings */
 #navBar {
+    font-family: "Chinese Rocks";
     display: flex;
     height: 60px;
     width: 100%;
@@ -30,15 +44,25 @@ body {
     padding: 10px 5px 10px 5px;
     justify-content: space-around;
     align-items: center;
+    vertical-align: middle;
+
 }
 
 .navItem {
-    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 10px;
+    min-width: auto;
+    width: 350px;
+    background-color: white;
+    height: 100%;
 }
+
 
 #homeIcon {
     width: 40px;
-
+    margin: auto;
 }
 
 /* Main Content Stylings */
@@ -46,7 +70,31 @@ body {
 
 }
 
-/* Footer stylings */
-#footer {
-    
+h2 {
+    font-family: "Sunday Best";
 }
+
+.poster {
+    text-align: center;
+    width: auto;
+    margin: auto;
+}
+
+.posterImage {
+    width: 500px;
+    margin: auto;
+    border: 2px solid white;
+    transition-duration: 3s;
+}
+
+.posterImage:hover {
+    transform: scale(1.1);
+}
+
+.posterCaption {
+    width: 500px;
+    margin: auto;
+}
+
+/* Footer stylings */
+#footer {}
