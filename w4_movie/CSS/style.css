@@ -211,7 +211,7 @@ h2 {
 .trivia {
     background-color: #3b3737;
     border-radius: 5px;
-    
+
 }
 
 .trivia h2 {
@@ -220,4 +220,6 @@ h2 {
 }
 
 /* Footer stylings */
-/* #footer {} */
+#footer {
+    align-items: center;
+}
