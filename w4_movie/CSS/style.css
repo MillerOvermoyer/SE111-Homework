@@ -153,54 +153,70 @@ h2 {
 .flip-card-back img {
     width: 400px;
 }
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #bbb;
 }
 
-/* Style the back side */
+/* Card Back Style */
 .flip-card-back {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
 }
 
-/* 
 
-.castMember {
+/* Review Pages */
+.imdbLink a {
+    color:seashell;
+}
+
+.imdbLink a:link {
+    color: seashell;
+}
+
+.imdbLink a:visited {
+    color: chartreuse;
+}
+
+.reviewPage {
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
-    width: 300px;
+    font-family: "JMH Typewriter";
 }
 
-.castMember img {
-    width: 100%;
-    border: 2px solid white;
-    transition-duration: 3s;
+.reviewPage:nth-child(even) {
+    justify-content: flex-end;
 }
 
-.castMember img:hover {
-    transform: scale(1.1);
+
+.review {
+    background-color: grey;
+    border-radius: 5px;
+    max-width: 80%;
+    min-width: 20%;
+    margin: 5px;
 }
 
-.castMember p {
-    margin: 8px 0 0 0;
+.review:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.review:nth-child(even) {
+    justify-content: flex-end;
+    text-align: right;
+    align-self: flex-end;
+}
+
+.trivia {
+    background-color: #3b3737;
+    border-radius: 5px;
+}
+
+.trivia h2 {
     text-align: center;
+    margin: auto;
 }
-
-.castMember:nth-child(3) {
-    margin-left: 60px;
-}
-
-.VoiceActor img {
-    width: 300px;
-    border: 2px solid white;
-    transition-duration: 3s;
-}
-.VoiceActor img:hover {
-    transform: scale(1.1);
-} */
 
 /* Footer stylings */
 /* #footer {} */
