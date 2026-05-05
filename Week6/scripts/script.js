@@ -70,3 +70,24 @@ var p = Number(prompt("Enter a number"))
 var q = Number(prompt("enter another numer"))
 
 console.log(p + q)
+
+var func = prompt("Would you like to to add, multiply, divide, or subtract? (+, -, *, /")
+var input1 = prompt("What is the first number? (The number you are subtracting/dividing from)")
+var input2 = prompt("What is the second number? (The number you are subtracting/dividing by)")
+
+function addNumbers(num1, num2){
+    return num1 + num2;
+}
+function subtractNumbers(num1, num2){
+    return num1 - num2;
+}
+function multiplyNumbers(num1, num2){
+    return num1 * num2;
+}
+function divideNumbers(num1, num2){
+    return num1 / num2;
+}
+
+if(func == "+"){
+    var 
+}
