@@ -1,0 +1,1 @@
+To use the pay Calculator feature, uncomment line 13 in index.html to allow the payCalc script to run. (You will also likely want to then comment out line 12 to disable the regular basic calculator.)
