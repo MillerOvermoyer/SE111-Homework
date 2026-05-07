@@ -1,4 +1,4 @@
-var func = prompt("Would you like to to add, multiply, divide, or subtract? (+, -, *, /")
+var func = prompt("Would you like to to add, multiply, divide, or subtract? (+, -, *, /)")
 var input1 = Number(prompt("What is the first number? (The number you are subtracting/dividing from)"))
 var input2 = Number(prompt("What is the second number? (The number you are subtracting/dividing by)"))
 
@@ -14,6 +14,7 @@ function multiplyNumbers(num1, num2){
 function divideNumbers(num1, num2){
     return num1 / num2;
 }
+
 
 
 var result;
